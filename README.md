@@ -13,9 +13,9 @@
     sudo useradd MARTINA -g CASA 
     sudo useradd JUAN -g CASA
     passwd MARTINA 
-    12345 ##esta contraseña se usa por efectos academicos
+    12345 
     passwd JUAN 
-    12345 ##esta contraseña se usa por efectos academicos
+    12345 
 # verificar los usuarios agregados al grupo.
     cut -d: -f1,4 /etc/passwd
     
